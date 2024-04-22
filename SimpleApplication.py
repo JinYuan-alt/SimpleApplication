@@ -2,7 +2,7 @@ from flask import Flask, render_template
 
 app=Flask(__name__)
 
-@app.route('/home1') #controller- controls where it is redirected#
+@app.route('/') #controller- controls where it is redirected#
 def layout():
     return render_template('layout.html')
 
